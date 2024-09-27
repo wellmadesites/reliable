@@ -143,7 +143,7 @@ h4:not(.lesson-title),
 .list-section-title [style*="underline"],
 .list-item-content__description [style*="underline"] 
  {
-font-family: var(--header-4-font) !important;
+font-family: var(--heading-4-font) !important;
 font-size: var(--heading-4);
  font-weight: var(--semi-bold) !important;
  color: var(--bright) !important;
