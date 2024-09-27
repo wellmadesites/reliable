@@ -1,4 +1,24 @@
-/* Example: Basic Material Symbols Icon Styling */
+/* Code Block Copy Button */
+.sqs-block-code pre {
+  background-color: #000;
+  color: #f8f8f2;
+  padding: 16px;
+  position: relative;
+  line-height: 1.6;
+}
+
+/* Style for Copy Button */
+.sqs-block-code .copy-btn {
+  background-color: var(--grey);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+}
+.sqs-block-code .copy-btn:hover {
+  background-color: #555;
+}
+
+/* Material Symbols Styling */
 .material-symbols-outlined {
   font-family: 'Material Symbols Outlined';
   font-weight: normal;
@@ -28,25 +48,15 @@ span[style="text-decoration:line-through"] strong {
   font-size: var(--increase) !important;
 }
 
-/* Custom Code Block */
-/* Style for Code Block */
-.sqs-block-code pre {
-  background-color: #000;
-  color: #f8f8f2;
-  padding: 16px;
-  position: relative;
-  line-height: 1.6;
-}
-
-/* Style for Copy Button */
-.sqs-block-code .copy-btn {
-  background-color: var(--grey);
-  color: #fff;
-  border: none;
-  padding: 5px 10px;
-}
-.sqs-block-code .copy-btn:hover {
-  background-color: #555;
+/* Navigation Folder Item, Icon Before */
+body:not(.header--menu-open) .header-nav-folder-item--active .header-nav-folder-item-content::before {
+ font-family: 'Material Symbols Outlined' !important; 
+ content: "arrow_forward" !important;
+ font-size: var(--paragraph-2);
+ color: var(--bright) !important; 
+ display: inline-block!important; 
+ vertical-align: middle!important;
+ margin: 0 !important;
 }
 
 /* GENERAL */
@@ -133,7 +143,6 @@ h1 {
  font-weight: var(--medium);
 }
 
-
 /* Heading 2 */
 h2 { 
  font-size: var(--heading-2);
@@ -147,7 +156,6 @@ h3,
  font-size: var(--heading-3);
  font-weight: var(--medium);
 }
-
 
 /* Heading 4 */
 h4:not(.lesson-title), 
@@ -340,17 +348,6 @@ letter-spacing: var(--spacing) !important;
 body:not(.header--menu-open) .header-nav-folder-item--active .header-nav-folder-item-content {
 background-image: none;
 font-weight: var(--semi-bold) !important;
-}
-
-/* Navigation Folder Item, Icon Before */
-body:not(.header--menu-open) .header-nav-folder-item--active .header-nav-folder-item-content::before {
- font-family: var(--iconfont) !important; 
- content: "arrow_forward" !important;
- font-size: var(--paragraph-2);
- color: var(--bright) !important; 
- display: inline-block!important; 
- vertical-align: middle!important;
- margin: 0 !important;
 }
 
 /* Active Navigation Item */
