@@ -1,27 +1,29 @@
-/* Custom Icon Displays When Icon Name is Written and Formatted with Strikethrough */
- span[style="text-decoration:line-through"]:not(strong) {
- font-family: 'Material Symbols Outlined';
- font-size: var(--heading-2);
- color: var(--dark) !important;
- text-decoration: none !important;
- vertical-align: middle;
- display: inline-block;
+/* Example: Basic Material Symbols Icon Styling */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: var(--heading-2); /* Default icon size */
+  color: var(--bright);
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'liga';
 }
 
-/* Navigation Folder Item, Icon Displays Before Title When Active */
-body:not(.header--menu-open) .header-nav-folder-item--active .header-nav-folder-item-content::before {
- font-family: 'Material Symbols Outlined'; 
- content: "arrow_forward" !important;
- font-size: var(--paragraph-2);
- color: var(--bright) !important; 
- display: inline-block!important; 
- vertical-align: middle!important;
- margin: 0 !important;
+/* Custom Icon Styling for Strikethrough */
+span[style="text-decoration:line-through"]:not(strong) {
+  font-family: 'Material Symbols Outlined' !important;
+  text-decoration: none !important;
 }
 
-/* Custom Icons Size Increase when Bold */
+/* Increase Icon Size when Bold */
 span[style="text-decoration:line-through"] strong {
- font-size: var(--increase) !important;
+  font-size: var(--increase) !important;
 }
 
 /* Custom Code Block */
