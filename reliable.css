@@ -39,80 +39,26 @@ body:not(.header--menu-open) .header-nav-folder-item--active .header-nav-folder-
  margin: 0 !important;
 }
 
-/* GENERAL */
+/* 3 - GENERAL */
 
-/* Smooth Scroll */
-html { 
- scroll-behavior: smooth;
-}
-
-/* No Hyphens */
-p, h1, h2, h3, h4 { 
-  -webkit-hyphens: none !important; 
-  -moz-hyphens: none !important; 
-  -ms-hyphens: none !important; 
-  hyphens: none !important; 
-  word-break: normal !important;
-  overflow-wrap: normal !important;
-}
-
-/* Links, No Underline */
-.sqs-block-html a  {
- text-decoration: none; 
- background-image: none;
- font-weight: var(--medium);
-}
-  
-/* Links on Hover */
-.sqs-block-html a:hover,
- footer .sqs-block-html a:hover,
-/* Navigation Folder Item on Hover */
-.header-nav-folder-item a:hover,
-/* Summary & Auto Layout Buttons on Hover */
-.summary-read-more-link:hover,
-.list-item-content__button:hover, 
-.sqs-block-summary-v2 .summary-read-more-link:hover,
-.blog-more-link:hover,
-.sqs-block-accordion .accordion-item__description a:hover,
-/* Collection Pages on Hover */
-.original-price, 
-.products.collection-content-wrapper .nested-category-breadcrumb-link:hover
-.category-link:hover, 
-.nested-category-breadcrumb-link:hover, 
-.products.collection-content-wrapper .nested-category-tree-wrapper .category-link:hover,
-.blog-more-link:hover, 
-.blog-side-by-side .blog-categories:hover,
-.blog-side-by-side .blog-author:hover,
-.blog-meta-item a:hover,
-.eventlist-column-thumbnail img:hover,
-.item-pagination-link .item-pagination-title:hover, 
-.lesson-item .lesson-item-pagination-title:hover,
-/* Gallery Section On Hover */
-.gallery-section .gallery-caption p:hover,
-/* Auto Layout on Hover */
-.list-item-content__description a:hover, 
-/* Description Links on Hover */
-.list-item-content__description a:hover, 
-/* SQSP Block On Hover */
-.image-slide-title:hover,
-.sqs-block-summary-v2 .summary-read-more-link:hover 
-.sqs-block-summary-v2 .summary-metadata-item:hover,
-.sqs-block-archive a:hover {
-opacity: var(--opacity) !important;
-}
-
-/* Inset Section, Background Color */
+/* Inset Section Background Color */
 .page-section.background-width--inset .section-border {
  background-color: var(--lightest) !important; 
- }
+}
 
- /* Spacer Blocks on Mobile */
+ /* Spacer Blocks Display on Mobile */
 @media (max-width: 767px) {
   .sqs-block-spacer {
     height: 20px !important;
     display: block !important;
   }
 }
+
+/* Smooth Scroll when User Clicks on Anchor Links */
+html { 
+ scroll-behavior: smooth;
+}
+
 
 
 /* TEXT FORMATTING */
