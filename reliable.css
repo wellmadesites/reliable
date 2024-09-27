@@ -16,9 +16,11 @@
 /* Custom Icon Styling for Strikethrough */
 span[style="text-decoration:line-through"]:not(strong) {
   font-family: 'Material Symbols Outlined' !important;
-  font-size: var(--heading-2) !important;
-  color: var(--bright) !important;
+  font-size: var(--heading-2);
+  color: var(--dark) !important;
   text-decoration: none !important;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 /* Increase Icon Size when Bold */
