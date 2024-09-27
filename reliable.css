@@ -3,8 +3,6 @@
   font-family: 'Material Symbols Outlined';
   font-weight: normal;
   font-style: normal;
-  font-size: var(--heading-2) !important;
-  color: var(--bright) !important;
   display: inline-block;
   white-space: nowrap;
   word-wrap: normal;
@@ -19,6 +17,8 @@
 span[style="text-decoration:line-through"]:not(strong) {
   font-family: 'Material Symbols Outlined' !important;
   text-decoration: none !important;
+  font-size: var(--heading-2) !important;
+  color: var(--bright) !important;
 }
 
 /* Increase Icon Size when Bold */
