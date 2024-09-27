@@ -212,6 +212,7 @@ member-area-block .sqs-editable-button,
 .header-actions .btn,
 .form-submit-button-style-bar .form-submit-button-state { 
   font-size: var(--paragraph-3) !important;
+  font-weight: var(--regular); 
   text-transform: uppercase !important;
 }
 
