@@ -1,3 +1,59 @@
+/* Custom Icons */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 100 700;
+  font-display: block;
+  src: url('./material-symbols-outlined.woff2') format('woff2');
+}
+
+/* Custom Icon Displays When Icon Name is Written and Formatted with Strikethrough */
+ span[style="text-decoration:line-through"]:not(strong) {
+ font-family: 'Material Symbols Outlined';
+ font-size: var(--heading-2);
+ color: var(--dark) !important;
+ text-decoration: none !important;
+ vertical-align: middle;
+ display: inline-block;
+}
+
+/* Navigation Folder Item, Icon Displays Before Title When Active */
+body:not(.header--menu-open) .header-nav-folder-item--active .header-nav-folder-item-content::before {
+ font-family: 'Material Symbols Outlined'; 
+ content: "arrow_forward" !important;
+ font-size: var(--paragraph-2);
+ color: var(--bright) !important; 
+ display: inline-block!important; 
+ vertical-align: middle!important;
+ margin: 0 !important;
+}
+
+/* Custom Icons Size Increase when Bold */
+span[style="text-decoration:line-through"] strong {
+ font-size: var(--increase) !important;
+}
+
+/* Custom Code Block */
+/* Style for Code Block */
+.sqs-block-code pre {
+  background-color: #000;
+  color: #f8f8f2;
+  padding: 16px;
+  position: relative;
+  line-height: 1.6;
+}
+
+/* Style for Copy Button */
+.sqs-block-code .copy-btn {
+  background-color: var(--grey);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+}
+.sqs-block-code .copy-btn:hover {
+  background-color: #555;
+}
+
 /* GENERAL */
 
 /* Smooth Scroll */
