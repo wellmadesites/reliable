@@ -124,7 +124,7 @@ p {
 
 /* Semi-Bold Font Weight */
 p strong {
- font-weight: var(--semi-bold) !important;
+ font-weight: var(--medium) !important;
 }
 
 
